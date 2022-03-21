@@ -1,0 +1,15 @@
+{
+    "name": "medoko/viewa",
+    "description": "desc",
+    "autoload": {
+        "psr-4": {
+            "Medoko\\Viewa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "myBernhard",
+            "email": "92299433+myBernhard@users.noreply.github.com"
+        }
+    ]
+}
