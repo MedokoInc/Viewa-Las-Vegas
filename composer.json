@@ -11,5 +11,8 @@
             "name": "myBernhard",
             "email": "92299433+myBernhard@users.noreply.github.com"
         }
-    ]
+    ],
+    "require": {
+        "twig/twig": "^3.3"
+    }
 }

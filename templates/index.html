@@ -20,7 +20,9 @@
     <div class="album py-5 bg-light">
         <div class="container">
             <div class="row">
-                ###HOTELS###
+                {% for hotel in hotels %}
+                    {% include 'hotel_template.html' with hotel.getArray() %}
+                {% endfor %}
             </div>
         </div>
     </div>
